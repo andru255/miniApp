@@ -1,0 +1,70 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title></title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/style.css">
+
+	<script src="js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+</head>
+<body>
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1>HTML + STYLUS + JS</h1>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa. 
+Sed eleifend nonummy diam. Praesent mauris ante, elementum et, bibendum at, posuere sit amet, nibh. Duis tincidunt lectus quis dui viverra vestibulum. 
+Suspendisse vulputate aliquam dui. Nulla elementum dui ut augue. Aliquam vehicula mi at mauris. Maecenas placerat, nisl at consequat rhoncus, sem nunc 
+gravida justo, quis eleifend arcu velit quis lacus. Morbi magna magna, tincidunt a, mattis non, imperdiet vitae, tellus. Sed odio est, auctor ac, 
+sollicitudin in, consequat vitae, orci. Fusce id felis. Vivamus sollicitudin metus eget eros.</p>
+      </div>
+      
+      <div class="inputs-wrapper">      
+        <textarea title="¿Qué estás pensando?" placeholder="¿Qué estás pensando?" autocomplete="off" id="input-comment"></textarea>
+        <input type="button" id="send" name="send" value="Publicar">
+      </div>
+      <div class="comment-wrapper"></div>     
+      <footer>
+        <p>&copy; Lorem ipsum Company</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+<script type="text/javascript" src="js/libs/jquery-1.7.2.min.js"></script>
+
+<script type="text/javascript">
+var route = {
+  module : 'index',
+  controller : 'index',
+  action : 'add-comment',
+  version : '0.1',
+  entire : function() {
+    var url = '';
+    if(this.module!=''){  url = this.module+'/';  }
+    if(this.controller!=''){  url = url+this.controller+'/';  }
+    if(this.action!=''){  url = url+this.action+'/';  }    
+    return url;
+  }
+}
+</script>
+
+<script type="text/javascript" src="js/miniApp.js"></script>
+
+<script type="text/javascript" src="js/modules/index.js"></script>
+
+<script type="text/javascript" src="js/catalog.js"></script>
+
+</body>
+</html>

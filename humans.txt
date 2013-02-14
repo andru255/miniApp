@@ -1,0 +1,22 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+/* TEAM */
+  
+  Jan Sanchez -- @jansanchez
+  Jaime Rodriguez -- @jrodev
+  Andres Muñoz -- @andru255
+  Brayan Borda -- @brayanbp
+  Erik Flores -- @elwerik
+
+  Location: Lima, Peru
+
+/* THANKS */
+  Names (& URL): 
+
+/* SITE */
+  Site: perured.pe
+  Standards: HTML5, CSS3
+  Components: Modernizr, jQuery
+  Software:

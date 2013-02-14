@@ -1,0 +1,84 @@
+@import "normalize.css";
+body {
+  background: -moz-linear-gradient(center top, #1e5799 0%, #2989d8 50%, #7db9e8 100%) repeat-x scroll 0 0 #7db9e8;
+/*FF*/
+  background: -webkit-linear-gradient(top, #1e5799 0%, #2989d8 50%, #7db9e8 100%) repeat-x scroll 0 0 #7db9e8;
+/*CH*/
+}
+input {
+  color: #369;
+  padding: 5px;
+}
+input[type='button'] {
+  background: none repeat scroll 0 0 #1e5799;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  padding: 7px;
+}
+input[type='button']:hover {
+  background: none repeat scroll 0 0 #369;
+}
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: 960px;
+}
+.hero-unit h1 {
+  color: #fff;
+}
+.hero-unit p {
+  color: #fff;
+}
+.inputs-wrapper,
+.comment {
+  background: none repeat scroll 0 0 #fff;
+  color: #000;
+  float: left;
+  margin: 0 0 10px;
+  padding: 10px;
+  width: 98%;
+}
+footer p {
+  color: #fff;
+}
+#send {
+  margin: 0 0 0 93%;
+}
+#input-comment {
+  background: none repeat scroll 0 0 #f2f2f2;
+  border-width: 0;
+  color: #369;
+  font-size: 14px;
+  height: 34px;
+  margin: 0 0 10px;
+  outline: medium none;
+  padding: 5px;
+  resize: none;
+  vertical-align: bottom;
+  width: 99%;
+}
+.comment img {
+  float: left;
+  height: 50px;
+  margin: 0 10px 0 0;
+  width: 50px;
+}
+.comment p {
+  color: #3b5998;
+  display: block;
+  float: left;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0;
+  width: 875px;
+}
+.comment span {
+  color: #666;
+  display: block;
+  float: left;
+  font-size: 13px;
+  margin: 0;
+  width: 875px;
+}
+
